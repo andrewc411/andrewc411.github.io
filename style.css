@@ -28,6 +28,13 @@ header {
     z-index: -1;
 }
 
+.background, .foreground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 section {
     font-size: 2rem;
     padding: 2rem;
