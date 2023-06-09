@@ -5,10 +5,17 @@ header img {
     margin: auto;
 } */
 .title {
-    font-size: 7rem;
+    font-size: 3rem;
     color: white;
     text-shadow: 0 0 5px black;
+    animation: fadeIn 10s;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+    
 
 .wrapper {
     height: 100vh;
@@ -33,6 +40,15 @@ header {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    z-index: -1;
+}
+
+.background {
+    transform: translateZ(-15px) scale(3.1);
+}
+
+.foreground {
+    transform: translateZ(-9.9px) scale(2);
 }
 
 section {
