@@ -67,21 +67,25 @@ p {
 }
 
 .p1,
-.p2 {
+.p2,
+.p3,
+.p4 {
   display: inline-block;
   justify-content: center;
   border: #ddd solid 1px;
   /* box-shadow: 3px 3px 2px 1px rgba(200, 205, 205); */
   border-radius: 10px;
   padding: 20px;
-  margin: auto;
+  margin: 10px;
   vertical-align: top;
   width: 20vw;
   /* height: ; */
 }
 
 .p1:hover,
-.p2:hover {
+.p2:hover,
+.p3:hover,
+.p4:hover {
   opacity: 0.5;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
