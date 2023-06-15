@@ -118,42 +118,7 @@ header {
 .projects {
   position: relative;
   padding-bottom: 100px;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* min-height: 400px; */
-  /* /* padding: 100px 20vw; */
 }
-
-/* .curve {
-  position: absolute;
-  height: 225px;
-  width: 100%;
-  bottom: 0;
-}
-
-.curve::before {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 55%;
-  height: 100%;
-  background-color: #20b2aa;
-  transform: translate(85%, 60%);
-}
-
-.curve::after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 55%;
-  height: 100%;
-  background-color: #ce4f4f;
-  transform: translate(-4%, 40%);
-  z-index: -1;
-} */
 
 .bio {
   position: relative;
@@ -207,7 +172,7 @@ p {
   margin: 10px;
   vertical-align: top;
   width: 20vw;
-  opacity: 0.8;
+  opacity: 0.7;
   transition: 0.5s ease;
 }
 
@@ -257,7 +222,6 @@ form {
 fieldset {
   border: none;
   padding: 20px 0;
-  /* border-bottom: 3px solid #dfdfdf; */
 }
 
 fieldset:last-of-type {
@@ -311,14 +275,20 @@ input[type="submit"]:active {
 }
 
 body {
-  /* min-height: 100vh; */
   margin: 0;
-  /* display: flex;
-  flex-direction: column; */
 }
 
-/* footer {
-  margin-top: auto;
-  background: linear-gradient(rgb(7, 49, 25), teal, rgb(5, 27, 5));
+footer {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  background: linear-gradient(rgb(235, 235, 235), #666666);
   opacity: 0.5;
-} */
+}
+
+footer:hover {
+  opacity: 1;
+}
+
+.fa {
+}
