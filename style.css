@@ -282,15 +282,12 @@ body {
 }
 
 #icon {
-    color: #b0b0b0;
+    color: pink;
 }
 
 #icon:hover {
-    color: #20b2aa;
-}
-
-.fa-beat:hover {
-    
+    color: #198a85;
+    transition: 1.5s ease;
 }
 
 footer {
