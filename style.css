@@ -88,7 +88,7 @@ header {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 90px;
+  height: 100px;
 }
 
 .custom-shape-divider-bottom-1686835790 .shape-fill {
@@ -109,21 +109,24 @@ header {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 90px;
+  height: 100px;
 }
 
 .custom-shape-divider-bottom-1686836607 .shape-fill {
   fill: #0f0f0f;
 }
+
 .projects {
   position: relative;
-  padding-bottom: 100px;
+  background-color: #333;
+  padding-bottom: 120px;
 }
 
 .bio {
   position: relative;
   background-color: #202020;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
+  padding-top: -20px;
 }
 
 .contact {
@@ -156,8 +159,8 @@ section {
 }
 
 p {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .p1,
@@ -190,7 +193,7 @@ p {
 }
 
 h6 {
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -203,7 +206,7 @@ img {
 }
 
 .description {
-  font-size: 18px;
+  font-size: 14px;
   margin-top: 20px;
 }
 
@@ -278,17 +281,23 @@ body {
   margin: 0;
 }
 
+#icon {
+    color: #b0b0b0;
+}
+
+#icon:hover {
+    color: #20b2aa;
+}
+
+.fa-beat:hover {
+    
+}
+
 footer {
-  color: black;
+  color: white;
   padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 15px;
-  background: linear-gradient(rgb(235, 235, 235), #666666);
-  opacity: 0.5;
-}
-
-footer:hover {
-  opacity: 1;
-}
-
-.fa {
+  background: linear-gradient(#333, #0f0f0f);
 }
