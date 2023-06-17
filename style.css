@@ -163,6 +163,7 @@ section {
 }
 
 p {
+    font-size: 16px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -211,11 +212,12 @@ img {
 }
 
 .description {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 20px;
 }
 
 form {
+    font-size: 14px;
   width: 60vw;
   max-width: 500px;
   min-width: 300px;
