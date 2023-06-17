@@ -206,15 +206,30 @@
             <fieldset>
               <label for="first-name"
                 >Enter Your First Name:
-                <input id="first-name" name="first-name" type="text" required
+                <input
+                  id="first-name"
+                  name="first-name"
+                  type="text"
+                  pattern="/^[a-z ,.'-]+$/i"
+                  required
               /></label>
               <label for="last-name"
                 >Enter Your Last Name:
-                <input id="last-name" name="last-name" type="text" required
+                <input
+                  id="last-name"
+                  name="last-name"
+                  type="text"
+                  pattern="/^[a-z ,.'-]+$/i"
+                  required
               /></label>
               <label for="email"
                 >Enter Your Email:
-                <input id="email" name="email" type="email" required
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                  required
               /></label>
             </fieldset>
             <fieldset>
@@ -259,13 +274,33 @@
             Andrew Carroll's <br />
             Professional Portfolio
           </p>
-          <a id="icon" href="https://www.linkedin.com/in/andrewrcarroll/"><i class="fa-brands fa-linkedin fa-beat-fade fa-lg fa-pull-right"></i>
+          <a id="icon" href="https://www.linkedin.com/in/andrewrcarroll/"
+            ><i
+              class="fa-brands fa-linkedin fa-beat-fade fa-lg fa-pull-right"
+            ></i>
           </a>
-          <a id="icon" href="https://github.com/andrewc411"><i class="fa-brands fa-github fa-beat-fade fa-lg fa-pull-right"></i></a>
-          <a id="icon" href="https://discordapp.com/users/Andrew Carroll#6177"><i class="fa-brands fa-discord fa-beat-fade fa-lg fa-pull-right"></i>
+          <a id="icon" href="https://github.com/andrewc411"
+            ><i class="fa-brands fa-github fa-beat-fade fa-lg fa-pull-right"></i
+          ></a>
+          <a id="icon" href="https://discordapp.com/users/Andrew Carroll#6177"
+            ><i
+              class="fa-brands fa-discord fa-beat-fade fa-lg fa-pull-right"
+            ></i>
           </a>
-          <a id="icon" href="https://1drv.ms/b/s!Ahnz0u_30H45p8Jw0cOaaWUC0nPZCg?e=uDqp0O"><i class="fa-solid fa-user-graduate fa-beat-fade fa-lg fa-pull-right"></i></a>
-          <a id="icon" href="https://onedrive.live.com/view.aspx?resid=397ED0F7EFD2F319%211183&authkey=!ABLTZ4FgB_FWHRg"><i class="fa-solid fa-address-card fa-beat-fade fa-lg fa-pull-right"></i></a>
+          <a
+            id="icon"
+            href="https://1drv.ms/b/s!Ahnz0u_30H45p8Jw0cOaaWUC0nPZCg?e=uDqp0O"
+            ><i
+              class="fa-solid fa-user-graduate fa-beat-fade fa-lg fa-pull-right"
+            ></i
+          ></a>
+          <a
+            id="icon"
+            href="https://onedrive.live.com/view.aspx?resid=397ED0F7EFD2F319%211183&authkey=!ABLTZ4FgB_FWHRg"
+            ><i
+              class="fa-solid fa-address-card fa-beat-fade fa-lg fa-pull-right"
+            ></i
+          ></a>
         </footer>
       </div>
     </main>
