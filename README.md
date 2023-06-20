@@ -6,7 +6,7 @@ A revamped version of my professional portfolio. Portfolio 2.0 is where you will
 
 ## User Story
 
-AS AN individual working in the tech industry
+AS A web developer working in the tech industry
 <br>
 I WANT TO have my own personalized website
 <br>
