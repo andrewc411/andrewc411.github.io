@@ -36,6 +36,6 @@ Keep up to date with projects and biography sections.
 
 ## Deployment
 
-<a href="https://andrewc411.github.io/">Click Here to View</>
+<a href="https://andrewc411.github.io/">Click Here to View
 
 ![Alt text](<Screenshot (8).png>)
