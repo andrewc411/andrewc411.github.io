@@ -15,7 +15,7 @@ SO THAT I can share my work with others to better market myself for future oppor
 ## Technologies Used
 
 <li>
-Hyper Text Markup Language (HTML5)
+HyperText Markup Language (HTML5)
 </li>
 <li>
 Cascading Style Sheet (CSS)
