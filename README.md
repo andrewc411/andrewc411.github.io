@@ -6,7 +6,7 @@ A revamped version of my professional portfolio. Portfolio 2.0 is where you will
 
 ## User Story
 
-AS AN individual working in the tech industry
+AS A web developer working in the tech industry
 <br>
 I WANT TO have my own personalized website
 <br>
@@ -15,7 +15,7 @@ SO THAT I can share my work with others to better market myself for future oppor
 ## Technologies Used
 
 <li>
-Hyper Text Markup Language (HTML5)
+HyperText Markup Language (HTML5)
 </li>
 <li>
 Cascading Style Sheet (CSS)
