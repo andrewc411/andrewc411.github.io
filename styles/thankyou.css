@@ -1,0 +1,43 @@
+* {
+    font-family: "Consolas", "Courier New", monospace;
+  }
+  
+
+h1 {
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+  
+
+.typewriter {
+    animation: typewriter 1s steps(30) 1s 1 normal both,
+      blinkTextCursor 1s steps(30) infinite normal;
+    }
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 29rem;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  
+
+  body {
+    background-color: rgb(199, 199, 199);
+
+  }
