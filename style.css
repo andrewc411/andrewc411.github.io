@@ -5,7 +5,7 @@
 h1 {
   color: white;
   text-shadow: 0 0 5px black;
-  font-size: 28px;
+  font-size: 30px;
   text-align: center;
   margin-top: 0px;
   white-space: nowrap;
@@ -36,7 +36,7 @@ h1 {
 }
 
 .animate__animated.animate__fadeInUp {
-  --animate-duration: 2s;
+  --animate-duration: 3s;
   --animation-delay: 2s;
 }
 
@@ -79,6 +79,7 @@ hr {
   position: absolute;
   height: 100%;
   width: 100%;
+  border: none;
   object-fit: cover;
   z-index: -1;
 }
@@ -86,7 +87,7 @@ hr {
 .infront {
   animation: fadeInAnimation ease 7s;
   opacity: 0;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -96,7 +97,7 @@ hr {
     opacity: 0;
   }
   100% {
-    opacity: 0.8;
+    opacity: 0.9;
   }
 }
 
