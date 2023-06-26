@@ -58,7 +58,8 @@ header {
 }
 
 .background,
-.foreground {
+.foreground,
+.infront {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -66,12 +67,42 @@ header {
   z-index: -1;
 }
 
+.infront {
+  animation: fadeInAnimation ease 7s;
+  opacity: 0;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+.infront {
+  position: absolute;
+  margin-top: 350px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
 .background {
-  transform: translateZ(-20px) scale(3.1);
+  transform: translateZ(-30px) scale(4.1);
 }
 
 .foreground {
-  transform: translateZ(-9.9px) scale(2);
+  transform: translateZ(-20px) scale(3);
+}
+
+.infront {
+  transform: translateZ(-10px) scale(2);
 }
 
 .custom-shape-divider-bottom-1686835790 {
@@ -282,12 +313,12 @@ body {
 }
 
 #icon {
-    color: pink;
+  color: pink;
 }
 
 #icon:hover {
-    color: #198a85;
-    transition: 1.5s ease;
+  color: #198a85;
+  transition: 1.5s ease;
 }
 
 footer {
