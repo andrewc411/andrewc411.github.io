@@ -2,12 +2,12 @@
   font-family: "Consolas", "Courier New", monospace;
 }
 
-.title {
+h1 {
   color: white;
   text-shadow: 0 0 5px black;
-  font-size: 4rem;
+  font-size: 28px;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 0px;
   white-space: nowrap;
   overflow: hidden;
   transform: translateY(-50%);
@@ -15,15 +15,15 @@
 
 /* Animation */
 .typewriter {
-  animation: typewriter 0.6s steps(13) 1s 1 normal both,
-    blinkTextCursor 300ms steps(13) infinite normal;
+  animation: typewriter 1s steps(13) 1s 1 normal both,
+    blinkTextCursor 1s steps(13) infinite normal;
 }
 @keyframes typewriter {
   from {
     width: 0;
   }
   to {
-    width: 14.3em;
+    width: 20em;
   }
 }
 @keyframes blinkTextCursor {
@@ -35,9 +35,9 @@
   }
 }
 
-:root {
-  --animate-delay: 2s;
-  --animate-duration: 0.2s;
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 2s;
+  --animation-delay: 2s;
 }
 
 .wrapper {
@@ -55,6 +55,22 @@ header {
   height: 100%;
   transform-style: preserve-3d;
   z-index: -1;
+}
+
+hr {
+  background-color: #ddd;
+}
+
+.projects a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.projects a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .background,
@@ -149,6 +165,7 @@ header {
 
 .projects {
   position: relative;
+  width: 100%;
   background-color: #333;
   padding-bottom: 120px;
 }
@@ -181,6 +198,7 @@ section {
 
 .job:hover {
   color: white;
+  text-decoration: none;
   text-shadow: 1px 0 10px #04aa6d;
   transition: color 0.5s ease;
 }
@@ -190,6 +208,7 @@ section {
 }
 
 p {
+  font-size: 16px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -199,15 +218,15 @@ p {
 .p3,
 .p4 {
   display: inline-block;
-  justify-content: space-between;
   border: #ddd solid 1px;
   border-radius: 10px;
   padding: 10px;
-  margin: 10px;
-  vertical-align: top;
-  width: 20vw;
-  opacity: 0.7;
-  transition: 0.5s ease;
+  margin: 5px;
+  width: 100%;
+  max-width: 100vw;
+  min-width: auto;
+  opacity: 0.5;
+  transition: 1s ease;
 }
 
 .p1:hover,
@@ -215,12 +234,20 @@ p {
 .p3:hover,
 .p4:hover {
   opacity: 1;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
-    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  transition: 0.5s ease;
+  background-color: #0f0f0f;
+  box-shadow: 0px 0px 10px 8px #0ff;
+  /* transition: 1s ease; */
+  text-shadow: #0ff 3px 5px 3px;
+  /* text-shadow: 0 0 0.5em #04aa6d; */
+}
+
+.p1:hover h6,
+.p2:hover h6,
+.p3:hover h6,
+.p4:hover h6 {
+  /* transition: 1s ease; */
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
 h6 {
@@ -228,24 +255,26 @@ h6 {
   text-align: center;
 }
 
+h6:hover {
+  text-transform: uppercase;
+}
+
 img {
   display: block;
   margin: 10px auto;
+  border: #ddd 1px solid;
   border-radius: 5px;
-  width: 18vw;
-  height: 18vh;
+  width: 100%;
+  height: auto;
 }
 
 .description {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 20px;
 }
 
-/* body {
-  margin: 0;
-} */
-
 form {
+  font-size: 14px;
   width: 60vw;
   max-width: 500px;
   min-width: 300px;
@@ -319,6 +348,8 @@ body {
 #icon:hover {
   color: #198a85;
   transition: 1.5s ease;
+  color: #ddd;
+  transition: 1s ease;
 }
 
 footer {
@@ -328,4 +359,27 @@ footer {
   padding-right: 20px;
   padding-bottom: 15px;
   background: linear-gradient(#333, #0f0f0f);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: rgb(23, 23, 23);
+  box-shadow: inset 0 0 5px teal;
+  /* border-radius: 10px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(23, 23, 23);
+  border: #ddd 1px solid;
+  box-shadow: inset 0 0 5px #ddd;
+}
+
+Handle on hover ::-webkit-scrollbar-thumb:hover {
+  background: #04aa6d;
 }
