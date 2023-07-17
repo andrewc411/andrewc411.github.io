@@ -293,7 +293,8 @@ p {
 .p1,
 .p2,
 .p3,
-.p4 {
+.p4,
+.p5 {
   display: inline-block;
   border: #ddd solid 1px;
   border-radius: 10px;
@@ -309,7 +310,8 @@ p {
 .p1:hover,
 .p2:hover,
 .p3:hover,
-.p4:hover {
+.p4:hover,
+.p5:hover {
   opacity: 1;
   background-color: #0f0f0f;
   box-shadow: 0px 0px 10px 8px #0ff;
@@ -321,7 +323,8 @@ p {
 .p1:hover h6,
 .p2:hover h6,
 .p3:hover h6,
-.p4:hover h6 {
+.p4:hover h6,
+.p5:hover h6 {
   /* transition: 1s ease; */
   font-size: 22px;
   text-transform: uppercase;
