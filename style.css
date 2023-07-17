@@ -35,8 +35,8 @@ h1 {
   }
 }
 
-.animate__animated.animate__fadeInUp {
-  --animate-duration: 3s;
+.animate__animated {
+  --animate-duration: 4s;
   --animation-delay: 2s;
 }
 
