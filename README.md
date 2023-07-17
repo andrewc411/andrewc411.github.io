@@ -21,9 +21,6 @@ HyperText Markup Language (HTML5)
 Cascading Style Sheet (CSS)
 </li>
 <li>
-Node Package Manager (NPM)
-</li>
-<li>
 Bootstrap 5
 </li>
 <li>
