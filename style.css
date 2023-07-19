@@ -35,10 +35,10 @@ h1 {
   }
 }
 
-.animate__animated {
+/* .animate__animated {
   --animate-duration: 4s;
   --animation-delay: 2s;
-}
+} */
 
 .wrapper {
   height: 100vh;
