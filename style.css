@@ -35,10 +35,11 @@ h1 {
   }
 }
 
-.animate__animated {
-  --animate-duration: 1s;
-  --animation-delay: 2s;
+.animate__animated.animate__fadeInUpBig {
+  --animate-duration: 7s;
+  --animation-delay: .3s;
 }
+
 
 .wrapper {
   height: 100vh;
