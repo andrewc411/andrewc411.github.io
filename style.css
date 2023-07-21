@@ -494,6 +494,12 @@ Handle on hover ::-webkit-scrollbar-thumb:hover {
   text-align: center;
 }
 
+.toggleBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   transition: background-color 0.3s ease;
 }
