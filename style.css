@@ -133,11 +133,11 @@ section {
 }
 
 hr {
-  background-color: #ddd;
+  background-color: black;
 }
 
 .projects a {
-  color: white;
+  color: black;
   text-decoration: none;
   cursor: pointer;
 }
@@ -197,6 +197,27 @@ hr {
   transform: translateZ(-10px) scale(2);
 }
 
+.custom-shape-divider-bottom-1689908511 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689908511 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 130px;
+}
+
+.custom-shape-divider-bottom-1689908511 .shape-fill {
+  fill: rgb(71, 82, 88);
+}
+
 .custom-shape-divider-bottom-1686835790 {
   position: absolute;
   bottom: 0;
@@ -215,7 +236,7 @@ hr {
 }
 
 .custom-shape-divider-bottom-1686835790 .shape-fill {
-  fill: #202020;
+  fill: rgb(104, 97, 85);
 }
 
 .custom-shape-divider-bottom-1686836607 {
@@ -236,19 +257,19 @@ hr {
 }
 
 .custom-shape-divider-bottom-1686836607 .shape-fill {
-  fill: #0f0f0f;
+  fill: #200000;
 }
 
 .projects {
   position: relative;
   width: 100%;
-  background-color: #333;
+  background-color: rgb(71, 82, 88);
   padding-bottom: 120px;
 }
 
 .bio {
   position: relative;
-  background-color: #202020;
+  background-color: rgb(104, 97, 85);
   padding-bottom: 120px;
   padding-top: -20px;
 }
@@ -256,14 +277,17 @@ hr {
 .contact {
   position: relative;
   padding-top: -20px;
-  background-color: #0f0f0f;
+  background-color: #200000;
+  background-image: #200000;
+  color: white;
 }
 
 section {
+  position: relative;
   font-size: 1.5rem;
   padding: 2rem;
-  background-color: #333;
-  color: white;
+  background-color: rgb(123, 123, 123);
+  color: black;
 }
 
 .job {
@@ -295,8 +319,9 @@ p {
 .p4,
 .p5 {
   display: inline-block;
-  border: #ddd solid 1px;
+  border: #000000 solid 1px;
   border-radius: 10px;
+  color: #000000;
   padding: 10px;
   margin: 5px;
   width: 100%;
@@ -312,10 +337,11 @@ p {
 .p4:hover,
 .p5:hover {
   opacity: 1;
+  color: white;
   background-color: #0f0f0f;
-  box-shadow: 0px 0px 10px 8px #0ff;
+  box-shadow: 0px 0px 10px 8px violet;
   /* transition: 1s ease; */
-  text-shadow: #0ff 3px 5px 3px;
+  text-shadow: violet 3px 5px 3px;
   /* text-shadow: 0 0 0.5em #04aa6d; */
 }
 
@@ -326,17 +352,18 @@ p {
 .p5:hover h6 {
   /* transition: 1s ease; */
   font-size: 22px;
-  text-transform: uppercase;
+  color: white;
 }
 
 h6 {
-  font-size: 18px;
+  font-size: 20px;
+  color: #000000;
   text-align: center;
 }
-
+/* 
 h6:hover {
   text-transform: uppercase;
-}
+} */
 
 img {
   display: block;
@@ -348,7 +375,7 @@ img {
 }
 
 .description {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 20px;
 }
 
@@ -461,4 +488,22 @@ footer {
 
 Handle on hover ::-webkit-scrollbar-thumb:hover {
   background: #04aa6d;
+}
+
+.lightordark {
+  text-align: center;
+}
+
+body {
+  transition: background-color 0.3s ease;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #2b2b2b;
+  color: #ffffff;
 }
