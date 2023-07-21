@@ -190,11 +190,11 @@ hr {
 }
 
 .foreground {
-  transform: translateZ(-20px) scale(3);
+  transform: translateZ(-20px) scale(3.1);
 }
 
 .infront {
-  transform: translateZ(-10px) scale(2);
+  transform: translateZ(-10px) scale(2.1);
 }
 
 .custom-shape-divider-bottom-1689908511 {
@@ -257,7 +257,7 @@ hr {
 }
 
 .custom-shape-divider-bottom-1686836607 .shape-fill {
-  fill: #200000;
+  fill: rgb(71, 90, 82);
 }
 
 .projects {
@@ -277,9 +277,8 @@ hr {
 .contact {
   position: relative;
   padding-top: -20px;
-  background-color: #200000;
-  background-image: #200000;
-  color: white;
+  background-color: rgb(71, 90, 82);
+  color: black;
 }
 
 section {
@@ -413,7 +412,7 @@ select {
 input,
 textarea {
   background: linear-gradient(rgb(233, 233, 233), white, rgb(22, 22, 22));
-  border: 1px solid lightcoral;
+  border: 1px solid lightblue;
   color: black;
 }
 
@@ -431,7 +430,7 @@ input[type="submit"] {
   font-size: 1.1rem;
   font-weight: bold;
   background-color: black;
-  border-color: lightcoral;
+  border-color: lightblue;
   min-width: 300px;
 }
 
@@ -448,11 +447,10 @@ body {
 }
 
 #icon {
-  color: pink;
+  color: lightblue;
 }
 
 #icon:hover {
-  color: #198a85;
   transition: 1.5s ease;
   color: #ddd;
   transition: 1s ease;
@@ -460,6 +458,7 @@ body {
 
 footer {
   color: white;
+  border-top: 1px solid #ffffff;
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -492,6 +491,11 @@ Handle on hover ::-webkit-scrollbar-thumb:hover {
 
 .lightordark {
   text-align: center;
+}
+
+.dark-light {
+  height: 300px;
+  width: 100vw;
 }
 
 .toggleBtn {
