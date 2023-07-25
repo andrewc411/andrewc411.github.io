@@ -88,13 +88,6 @@ header {
   padding: 0;
 }
 
-section {
-  height: 100vh;
-  width: 100%;
-  display: table;
-  
-}
-
 .scroll-down {
   opacity: 1;
   -webkit-transition: all .5s ease-in 3s;
@@ -153,10 +146,9 @@ section {
 }
 
 hr {
-  background-color: rgb(203, 203, 203);
-  box-shadow: 0 0 0px 1px white;
+  background-color: lightblue;
+  box-shadow: 0 0 1px 1px white;
   width: 80%;
-  height: 1px;
 }
 
 .projects a {
@@ -167,12 +159,6 @@ hr {
   text-decoration: none;
   cursor: pointer;
 }
-
-/* .projects a:hover {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-} */
 
 .background,
 .foreground,
@@ -303,7 +289,7 @@ hr {
   background-color: rgb(73, 85, 90);
   padding-bottom: 120px;
   padding-top: -20px;
-  padding-right: 100px;
+  padding-right: 20px;
 }
 
 .contact {
@@ -314,9 +300,10 @@ hr {
 }
 
 section {
-  /* position: relative; */
   display: table;
   table-layout: fixed;
+  height: 100vh;
+  width: 100%;
   font-size: 1.5rem;
   padding: 2rem;
   background-color: rgb(73, 85, 90);
@@ -398,7 +385,7 @@ p {
 .p3:hover h6,
 .p4:hover h6,
 .p5:hover h6 {
-  /* transition: 1s ease; */
+  transition: 1s ease;
   font-size: 22px;
   color: white;
 }
