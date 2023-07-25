@@ -359,7 +359,7 @@ p {
   padding: 10px;
   margin-top: 20px;  
   width: 450px;
-  height: 500px;
+  height: 450px;
   max-width: 90vw;
   min-width: auto;
   max-height: fit-content;
@@ -396,12 +396,12 @@ img {
   border: white 1px solid;
   border-radius: 5px;
   width: 100%;
-  height: auto;
+  height: 250px;
 }
 
 .description {
-  font-size: 14px;
-  margin-top: 20px;
+  font-size: 15px;
+  margin-top: 15px;
 }
 
 form {
