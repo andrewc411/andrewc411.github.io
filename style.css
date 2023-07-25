@@ -1,7 +1,7 @@
 
 h1 {
   font-family: "Consolas", "Courier New", monospace;
-  color: rgb(203, 203, 203);
+  color: #00ff41;
   text-shadow: 0 0 5px black;
   font-size: 30px;
   text-align: center;
@@ -9,7 +9,7 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
   transform: translateY(-50%);
-  opacity: .6;
+  opacity: .7;
   transition: .5s ease-in-out;
 }
 
@@ -126,7 +126,7 @@ section {
     width: 12px;
     height: 12px;
     content: "";
-    border: 2px solid white;
+    border: 2px solid #00ff41;
     border-width: 0px 0 2px 2px;
 }
 
