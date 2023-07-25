@@ -364,7 +364,7 @@ p {
   min-width: auto;
   max-height: fit-content;
   opacity: .5;
-  transition: 1s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .p1:hover,
@@ -377,7 +377,7 @@ p {
   border: white solid 3px;
   box-shadow: 0px 0px 10px 8px violet;
   text-shadow: violet 1px 3px 1px;
-  transition: 1s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .p1:hover h6,
