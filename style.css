@@ -386,7 +386,7 @@ p {
 .p3:hover h6,
 .p4:hover h6,
 .p5:hover h6 {
-  transition: 1s ease;
+  transition: .5s ease;
   font-size: 22px;
   color: white;
 }
